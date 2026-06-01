@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'thanu-web-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B35ED7717E448ACB8C2E86A3E5A1721 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
